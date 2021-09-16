@@ -1,0 +1,1 @@
+# cowsay_char_names
