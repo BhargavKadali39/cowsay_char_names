@@ -1,7 +1,10 @@
-import cowsay
+from cowsay import *
+from time import sleep
 
 
-cowsay_lidt = ['beavis', 'cheese', 'daemon', 'cow', 'dragon', 'ghostbusters', 'kitty', 'meow', 'milk', 'pig', 'stegosaurus', 'stimpy', 'trex', 'turkey', 'turtle', 'tux']
+cowsay_dict = {beavis : 'beavis', cheese : 'cheese', daemon : 'daemon', cow : 'cow', dragon : 'dragon', ghostbusters : 'ghostbusters', kitty : 'kitty', meow : 'meow', milk : 'milk', pig : 'pig', stegosaurus : 'stegosaurus', stimpy : 'stimpy', trex : 'trex', turkey : 'turkey', turtle : 'turtle', tux : 'tux'}
 
-for x in cowsay_dict:
-    eval('x')
+for x, y in cowsay_dict.items():
+    eval('x(y)')
+    sleep(2)
+
