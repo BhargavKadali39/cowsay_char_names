@@ -1,17 +1,7 @@
 import cowsay
-cowsay.cow('cow')
-cowsay.dragon('dragon')
-cowsay.beavis('beavis')
-cowsay.cheese('cheese')
-cowsay.daemon('daemon')
-cowsay.ghostbusters('ghostbusters')
-cowsay.kitty('kitty')
-cowsay.meow('meow')
-cowsay.milk('milk')
-cowsay.pig('pig')
-cowsay.stegosaurus('stegosaurus')
-cowsay.turkey('turkey')
-cowsay.trex('trex')
-cowsay.stimpy('stimpy')
-cowsay.turtle('turtle')
-cowsay.tux('tux')
+
+
+cowsay_lidt = ['beavis', 'cheese', 'daemon', 'cow', 'dragon', 'ghostbusters', 'kitty', 'meow', 'milk', 'pig', 'stegosaurus', 'stimpy', 'trex', 'turkey', 'turtle', 'tux']
+
+for x in cowsay_dict:
+    eval('x')
