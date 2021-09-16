@@ -5,3 +5,4 @@ This repo is based on python module cowsay which has a unique way of showing out
 Including the module cowsay I also used dictionary key-value calling integrated with eval() function.  
 The script is dynamically typed by the provided dictionary's keys and values.  
 
+warning: I used eval() fun here for only learning purpose and it could potentially cause harm on your project's where the user can give his own string commands to access some authorized data or for other malicious work.
