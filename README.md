@@ -15,3 +15,7 @@ warning: I used eval() fun here for only learning purpose and it could potential
 Here I imported cowsay as * i.e all function in the module can be used without prior usage of module name ex: cowsay.FUNCTION().  
 Normally eval() will not take string value inside a variable, so I declared it as a function name which belongs to the imported module(cowsay).
 The only way I thought of is to import them all, so each module function can be called as a normal function inside eval() then be accessed by any loop.
+
+>from time import sleep
+
+Sleep() is the only thing we need from time module for slideshow view.
